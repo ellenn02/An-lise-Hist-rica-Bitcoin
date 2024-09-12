@@ -1,0 +1,17 @@
+bitcoin_analysis/
+│
+├── data/
+│   ├── bitcoin_historical_data.csv  # Arquivo de dados fornecido para análise
+│
+├── notebooks/
+│   ├── 01_data_exploration.ipynb  # Análise Exploratória dos Dados
+│   ├── 02_price_fluctuation.ipynb  # Visualização da flutuação do preço de fechamento
+│   └── 03_volume_analysis.ipynb   # Visualização do volume de negociação
+│
+├── src/
+│   ├── data_preprocessing.py  # Código para pré-processamento e limpeza dos dados
+│   └── visualization.py       # Código para criação dos gráficos
+│
+├── requirements.txt          # Dependências do projeto
+├── .gitignore                 # Arquivos e diretórios a serem ignorados pelo Git
+└── README.md                  # Descrição do projeto e instruções
