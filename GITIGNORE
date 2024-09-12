@@ -1,0 +1,70 @@
+
+### 4. `.gitignore`
+
+Aqui está um exemplo de `.gitignore` para o seu projeto:
+
+```gitignore
+# Ignorar arquivos de dados brutos
+data/*.csv
+
+# Ignorar arquivos de notebooks gerados
+*.ipynb_checkpoints
+
+# Ignorar arquivos de ambiente
+.env
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
+
+# Ignorar arquivos gerados por IDEs
+.vscode/
+.idea/
+
+# Ignorar arquivos de configuração de ambiente virtual
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar arquivos de cache
+.cache/
+
+
+Enunciado do Projeto
+Contexto
+Você foi recentemente contratado por uma fintech especializada em análises de criptomoedas. O objetivo deste projeto é realizar uma análise detalhada da variação do preço de fechamento do Bitcoin ao longo do tempo, com base em dados históricos fornecidos pela empresa. Compreender a flutuação do preço e o volume de negociação do Bitcoin é crucial para informar decisões estratégicas de investimento.
+
+Objetivo
+O objetivo deste projeto é descobrir tendências e padrões na variação do preço de fechamento do Bitcoin e no volume de negociação ao longo do tempo. A análise deve fornecer insights valiosos sobre o comportamento do Bitcoin, ajudando a empresa a entender melhor os movimentos do mercado e suas possíveis implicações para investimentos futuros.
+
+Tarefas
+Análise Exploratória de Dados (AED):
+
+Carregar os dados históricos do Bitcoin a partir do arquivo CSV fornecido.
+Visualizar as primeiras linhas do conjunto de dados para entender a estrutura e a qualidade dos dados.
+Identificar tipos de colunas, valores ausentes e quaisquer anomalias.
+Realizar um diagnóstico inicial para documentar a estrutura dos dados e ajustes necessários.
+Visualização da Flutuação do Preço de Fechamento:
+
+Criar um gráfico de linha que ilustre a variação do preço de fechamento do Bitcoin ao longo do tempo.
+Garantir que o gráfico tenha uma legenda clara, títulos adequados e rótulos bem posicionados para melhorar a legibilidade.
+Visualização do Volume de Negociação:
+
+Criar um gráfico de linha mostrando o volume de negociação do Bitcoin ao longo do tempo.
+Comparar o volume de negociação com a variação do preço para analisar se há uma correlação entre eles.
+Relatório:
+
+Detalhar as principais características dos dados, valores ausentes e quaisquer ajustes realizados.
+Discutir as tendências visíveis nos gráficos de preços, como períodos de alta, baixa ou estabilidade.
+Analisar a relação entre movimentos de preço e flutuações no volume de negociação.
+Apresentar sugestões úteis para a equipe de investimentos com base nas tendências observadas.
+Dados
+O conjunto de dados históricos do Bitcoin está disponível no link fornecido. Ele inclui informações sobre o preço de fechamento e o volume de negociação ao longo do tempo.
+
+Entregáveis
+Relatório Detalhado: Incluindo diagnóstico inicial, visualizações dos dados e insights obtidos.
+Gráficos: Representando a flutuação do preço de fechamento e o volume de negociação ao longo do tempo.
+O projeto visa fornecer uma análise clara e prática do comportamento do Bitcoin, contribuindo para decisões estratégicas informadas.
+
